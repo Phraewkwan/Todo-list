@@ -1,0 +1,48 @@
+.task {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+
+.task > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6c4ab6;
+}
+
+.content__container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__container > button:first-of-type {
+  color: #6c4ab6;
+  background-color: #8e72e176;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  margin-right: 10px;
+}
+
+.content__container > button:last-of-type {
+  color: #6c4ab6;
+  background-color: #8e72e176;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  margin-right: 10px;
+}
